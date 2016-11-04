@@ -1,0 +1,161 @@
+<html>
+
+<head>
+  <title>Home STATE Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css" />
+  <link rel="stylesheet" href="css/custom/custom.css" />
+  <link rel="stylesheet" href="css/custom/steps.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="js/steps.js"></script>
+  <script src="js/states.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Home STATE Home
+          </h1>
+          <h2 class="subtitle">
+            Designing your custom homestatehome art is easy 5 step process
+          </h2>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery -->
+    <div class="tile is-parent">
+      <article class="tile is-child">
+        <div class="content">
+          <p class="title">Gallery</p>
+          <p class="subtitle">With samples of what others have ordered</p>
+          <div class="content">
+            <!-- Content -->
+          </div>
+        </div>
+      </article>
+    </div>
+    <!-- End of Gallery -->
+    <div class="columns">
+      <div class="column">
+        <div class="circle" id="state">
+          <span class="innerTEXT">Step 1: STATE</span><br>
+          <span id="state_text" class="innerTEXT">Select your state</span>
+        </div>
+        <!--start of state -->
+        <div id="state_select">
+          <p class="control">
+            <span class="select">
+              <select id="selected_state">
+              </select>
+            </span>
+          </p>
+        </div>
+        <!-- end of state -->
+      </div>
+      <div class="column">
+        <div class="circle" id="size">
+          <span class="innerTEXT">Step 2: SIZE</span><br>
+          <span id="size_text" class="innerTEXT">Select your size</span>
+        </div>
+        <!--start of size -->
+        <div id="size_select">
+          <p class="control">
+            <span class="select">
+              <select id="selected_size">
+                <option>- Select -</option>
+                <option>Small</option>
+                <option>Large</option>
+                <option>Custom</option>
+              </select>
+            </span>
+          </p>
+        </div>
+        <!-- end of size -->
+      </div>
+      <div class="column">
+        <div class="circle" id="material">
+          <span class="innerTEXT">Step 3: MATERIAL</span><br>
+          <span id="material_text" class="innerTEXT">Select your material</span>
+        </div>
+        <!--start of material -->
+        <div id="material_select">
+          <p class="control">
+            <span class="select">
+              <select id="selected_material">
+                <option>- Select -</option>
+                <option>Cedar</option>
+                <option>Reclaimed Barnwood</option>
+                <option>Hickory</option>
+                <option>Corrugated Steel</option>
+                <option>Stainless steel Mesh</option>
+              </select>
+            </span>
+          </p>
+        </div>
+        <!-- end of material -->
+      </div>
+      <div class="column">
+        <div class="circle" id="finish">
+          <span class="innerTEXT">Step 4: FINISH</span><br>
+          <span id="finish_text" class="innerTEXT">Select your finish</span>
+        </div>
+        <!--start of finish -->
+        <div id="finish_select">
+          <p class="control">
+            <span class="select">
+              <select id="selected_finish">
+                <option>- Select -</option>
+                <option>Natural</option>
+                <option>Distressed Painted white</option>
+                <option>Distressed Painted black</option>
+              </select>
+            </span>
+          </p>
+        </div>
+        <!-- end of finish -->
+      </div>
+      <div class="column">
+        <div class="circle" id="art">
+          <span class="innerTEXT">Step 5: ART</span><br>
+          <span id="art_text" class="innerTEXT">Select your art</span>
+        </div>
+        <!--start of art -->
+        <div id="art_select">
+          <p class="control">
+            <span class="select">
+              <select id="selected_art">
+                <option>- Select -</option>
+                <option>None</option>
+                <option>Home - block lettering</option>
+                <option>Home - cursive lettering</option>
+              </select>
+            </span>
+          </p>
+        </div>
+        <!-- end of art -->
+      </div>
+      <div class="column is-1">
+        <div class="next">
+          <a href="#" disabled="disabled"><i class="fa fa-arrow-circle-o-right fa-5x" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="content">
+        <p>
+          &copy; <strong>homeSTATEhome</strong>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer -->
+</body>
+
+</html>
